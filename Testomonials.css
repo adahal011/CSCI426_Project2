@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+/*Testomonials Element
+  Worked By: Abhishek Dahal;
+  Date: 03/25/2022;
+*/
+:root {
+  --transition: all 0.7s ease;
+  --yellow: #f9d342;
+  --dark: #292826;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+@media (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+.customers {
+  padding: 40px 0;
+  background-color: black;
+}
+.customer {
+  background: #fff;
+  padding: 35px;
+  text-align: center;
+  margin: 24px 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.customer p {
+  opacity: 0.7;
+  line-height: 1.8;
+  width: 60%;
+  margin: 0 auto;
+}
+.customer img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 25px auto;
+}
+.customer span {
+  font-weight: 700;
+  opacity: 0.7;
+}
+.customer:hover {
+  transform: translateY(-18px);
+}
+@media (min-width: 992px) {
+  .customers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+@media (min-width: 1370px) {
+  .customers-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .customer p {
+    width: 100%;
+  }
+  .customer img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/*End of Customer Review*/

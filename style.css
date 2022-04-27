@@ -1,0 +1,515 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+. {
+  background-color: black;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Limelight', cursive;
+  font-family: 'Lobster', cursive;
+}
+.navigate {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 0px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  background-color: #0e245d;
+  width: 500px;
+}
+.logo h1 {
+  font-size: 60px;
+  opacity: 90%;
+  padding-left: 10px;
+  letter-spacing: 7px;
+  color: white;
+  font-family: 'Limelight', cursive;
+}
+.logo h2 {
+  margin-top: -72px;
+  margin-left: 25px;
+  font-size: 60px;
+  opacity: 90%;
+  padding-left: 130px;
+  letter-spacing: 7px;
+  color: gold;
+  font-family: 'Limelight', cursive;
+}
+.logo h3 {
+  margin-top: -22px;
+  font-size: 25px;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  color: goldenrod;
+  opacity: 60%;
+  font-family: 'Limelight', cursive;
+}
+.content li {
+  display: inline-block;
+
+  padding: 30px 30px;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+}
+.content li a {
+  color: skyblue;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.content li a:hover {
+  color: gold;
+  font-size: 50px;
+  background-color: #0e245d;
+}
+div.home {
+  height: 480px;
+  width: 100%;
+  position: relative;
+}
+.title {
+  display: box;
+  background-color: blueviolet;
+}
+.title {
+  opacity: 0.7;
+}
+.title h1 {
+  background-color: #0e245d;
+  margin-top: 220px;
+  top: 18%;
+  padding-right: 40px;
+  position: absolute;
+  left: 40%;
+  color: white;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Limelight', cursive;
+}
+.title h4 {
+  background-color: #0e245d;
+  margin-top: 220px;
+  margin-left: 170px;
+  top: 18%;
+  position: absolute;
+  left: 40%;
+  color: gold;
+  padding-left: 10px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Limelight', cursive;
+}
+.title h2 {
+  margin-top: 243px;
+  top: 25%;
+  color: black;
+
+  position: absolute;
+  left: 40%;
+  word-spacing: 2px;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'sans-serif;', cursive;
+}
+.title h3 {
+  margin-top: 240px;
+  top: 30%;
+  position: absolute;
+  left: 40%;
+  word-spacing: 2px;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  font-family: 'sans-serif;', cursive;
+}
+
+.Slide {
+  display: none;
+}
+img {
+  vertical-align: middle;
+  height: 720px;
+  opacity: 0.7;
+}
+
+.box {
+  width: 100%;
+  height: 3065;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+.foot {
+  background-color: rgb(29, 29, 29);
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  padding-left: 10rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 6rem;
+}
+
+.footer-heading h2 {
+  margin-bottom: 2rem;
+}
+
+.footer-heading a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+  color: gold;
+  transition: 0.3s ease-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* gallery styles  */
+
+.galleryTitle::before {
+  content: '';
+  display: block;
+  border-bottom: 3px solid darkseagreen;
+  width: 100%;
+  position: relative;
+  top: -6px; /* your padding + border-width */
+}
+
+.galleryTitle {
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0rem !important;
+  border-bottom: darkseagreen;
+}
+
+.galleryTitle::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid darkseagreen;
+  width: 100%;
+  position: relative;
+  bottom: -6px; /* your padding + border-width */
+}
+
+.galleryh2 {
+  margin-bottom: 0rem !important;
+  text-align: center;
+}
+
+.roomPic {
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 5px;
+  align-items: center;
+  justify-content: center;
+}
+.RoomImg {
+  height: 300px;
+}
+
+/* Gym */
+
+.Fitness img {
+  padding-left: 90px;
+  max-width: 90%;
+  max-height: 90%;
+  min-width: 90%;
+  min-height: 90%;
+  justify-content: center;
+}
+
+/*styling corrousal item for our best visual */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-indicators {
+  background: fixed;
+}
+.carousel {
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.Fitness {
+  padding: 20px 10px;
+}
+
+.HealthImg {
+  padding: 20px 0px;
+}
+
+/* style for spa */
+.SpaPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.SpaPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* pool pic styles */
+
+.poolPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.poolPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* tennis pic styles */
+
+.tennisPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.tennisPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* styles for beach */
+
+.beachPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.beachPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* styles for shop */
+
+.shopPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* stlyes for valet */
+.valetPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.valetPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* stlyes for arcade */
+
+.arcadePic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.arcadePic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* gallery styles end */
+
+/* room detail styles */
+.product-details {
+  display: flex;
+  padding: 50px 10px;
+  border: 2px solid darkseagreen;
+  border-radius: 10px;
+  background-color: black;
+  color: darkseagreen;
+}
+.product-details .detail-view {
+  padding-bottom: 85.2698% !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.product-image {
+  flex: 1;
+  height: 500px;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.product-description {
+  flex: 1;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.product-description small {
+  background-color: #ff6600;
+  color: #ffffff;
+  padding: 3px 5px;
+}
+
+.product-description h2 {
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.product-description .prod-short-desc {
+  padding: 10px 0 !important;
+}
+
+.product-description .product-rating {
+  padding: 10px 0;
+  color: #990066;
+}
+
+.product-description .product-price {
+  padding: 10px 0;
+  font-size: 30px;
+  color: #ff6600;
+}
+
+.product-description .available {
+  padding: 10px 0;
+}
+
+.product-description .qty-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.qty-btn > p {
+  padding: 0;
+  margin-right: 10px;
+}
+
+.qty-btn > input {
+  width: 30px !important;
+  height: 10px !important;
+  border: 1px solid #ff6600;
+  padding: 10px;
+  outline: none;
+  margin: 0 10px;
+}
+
+.qty-btn .prod-cart-btn {
+  margin: 0;
+  padding: 8px 10px;
+  border: none;
+  background-color: #ff6600;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.prod-cart-btn:hover {
+  background-color: #ff9900;
+}
+
+.infoBody {
+  background-color: black;
+}
+/* room detail styles end */

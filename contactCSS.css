@@ -1,0 +1,138 @@
+
+/*Contact Us
+  Worked By: Abhishek Dahal;
+  Date: 03/25/2022;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Limelight', sans-serif;
+}
+
+.contact{
+    position: relative;
+    min-height: 80vh;
+    padding:  50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/contactus.jpg);
+    background-size: cover;
+}
+
+.contact .content{
+    font-size: 20px;
+    max-width: 800px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact .content h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.mainInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mainInfo .contactInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainInfo .contactInfo .box{
+    postion: relative;
+    padding: 15px 0;
+    display: flex;
+}
+
+.mainInfo .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background:  #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.mainInfo .contactInfo .box .text{
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.mainInfo .contactInfo .box .text h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #00bcd4;
+    padding-left: -50px;
+}
+
+.mainInfo .comment-box h2{
+    color: #00bcd4;
+    font-size: 25px;
+}
+.mainInfo .comment-box {
+    position: absolute;
+    transform: translate(80%, 5%);
+    width:  500px;
+    font-size:  20px;
+    margin-bottom:  15px;
+}
+
+.mainInfo .comment-box input{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.mainInfo .comment-box input:focus {
+    border: 2px solid teal;
+    outline: 0;
+}
+
+.mainInfo .comment-box textarea{
+    width: 100%;
+    height: 125px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius:  5px;
+    border: 1px solid;
+    resize: none;
+}
+
+.mainInfo .comment-box textarea:focus {
+    border: 2px solid teal;
+    outline: 0;
+}
+
+.mainInfo .comment-box button{
+    border: 0;
+    padding:  10px 30px;
+    margin-bottom: 50px;
+    background: rgb(79,79,79);
+    font-size: 18px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.mainInfo .comment-box button:hover{
+    background-color: rgb(90,90,90);
+}

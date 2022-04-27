@@ -1,0 +1,198 @@
+/* Aaditya Ranjan Mahato */
+/* CSCI 426 Project 1 */
+/* March 19 2022 */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+  font-family: 'Lobster', cursive;
+  color: darkseagreen;
+  background-color: black;
+}
+.galleryTitle {
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0rem !important;
+}
+
+.galleryh2 {
+  margin-bottom: 0rem !important;
+  text-align: center;
+}
+
+.roomPic {
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.RoomImg {
+  height: 300px;
+}
+
+/* Gym */
+
+.Fitness img {
+  padding-left: 90px;
+  max-width: 90%;
+  max-height: 90%;
+  min-width: 90%;
+  min-height: 90%;
+  justify-content: center;
+}
+
+/*styling corrousal item for our best visual */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-indicators {
+  background: fixed;
+}
+.carousel {
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.Fitness {
+  padding: 20px 10px;
+}
+
+.HealthImg {
+  padding: 20px 0px;
+}
+
+/* style for spa */
+.SpaPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.SpaPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* pool pic styles */
+
+.poolPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.poolPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* tennis pic styles */
+
+.tennisPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.tennisPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* styles for beach */
+
+.beachPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.beachPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* styles for shop */
+
+.shopPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* stlyes for valet */
+.valetPic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.valetPic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* stlyes for arcade */
+
+.arcadePic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.arcadePic img {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
