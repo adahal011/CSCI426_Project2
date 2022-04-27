@@ -74,7 +74,7 @@
             <div class="logo"><h1>SUN</h1><h2>RISE</h2></h1></br><p><h3>YOUR DREAMY RESORT</p></h3></div>
         <div class="content">
         <!--Navigation items in the form of list-->
-        <li> <a href ="index.php" >Home</li></a></li>
+        <li> <a href ="index.html" >Home</li></a></li>
         <li> <a href ="AboutUS.php" >About Us</li></a></li>
         <li> <a href ="gallery.php">Gallery</li></a></li>
         <li> <a href ="ContactUs.php">Contact Us</li></a></li>
@@ -216,7 +216,7 @@
     <div class = "foot">
         <div class = "footer-heading 1">
           <h2> Links </h2>
-          <a href = "index.php">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+          <a href = "index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a>
           <a href = "AboutUS.php">About Us <i class="fa fa-info" aria-hidden="true"></i></a>
           <a href = "gallery.php">Gallery <i class="fa fa-picture-o" aria-hidden="true"></i></a>
           <a href = "ContactUs.php">Contact Us <i class="fa fa-phone-square" aria-hidden="true"></i></a>

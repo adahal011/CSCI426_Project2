@@ -13,7 +13,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
   $query = "insert into SunriseBooking(username, email, roomType, date) values ('$username', '$email', '$room','$date')";
   mysqli_query($con , $query); //this statement will run query into the database
 
-  header("Location: index.php"); //after query is complete, home page will be loaded
+  header("Location: index.html"); //after query is complete, home page will be loaded
   die; //we will close every process now
 }
 
@@ -68,7 +68,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 		<!--Navigation items in the form of list-->
       <div class="content">
         <!--Navigation items in the form of list-->
-        <li> <a href ="index.php" >Home</li></a></li>
+        <li> <a href ="index.html" >Home</li></a></li>
         <li> <a href ="AboutUS.php" >About Us</li></a></li>
         <li> <a href ="gallery.php">Gallery</li></a></li>
         <li> <a href ="ContactUs.php">Contact Us</li></a></li>
@@ -429,7 +429,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <div class = "foot">
         <div class = "footer-heading 1">
           <h2> Links </h2>
-          <a href = "index.php">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+          <a href = "index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a>
           <a href = "AboutUS.php">About Us <i class="fa fa-info" aria-hidden="true"></i></a>
           <a href = "gallery.php">Gallery <i class="fa fa-picture-o" aria-hidden="true"></i></a>
           <a href = "ContactUs.php">Contact Us <i class="fa fa-phone-square" aria-hidden="true"></i></a>
